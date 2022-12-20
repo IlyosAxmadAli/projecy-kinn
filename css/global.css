@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/roboto-v30-latin-regular.woff2") format("woff2"),
+    url("../fonts/roboto-v30-latin-regular.woff") format("woff");
+}
+@font-face {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/jost-v14-latin-regular.woff2") format("woff2"),
+    url("../fonts/jost-v14-latin-regular.woff") format("woff");
+}
+:root {
+  --font-family: "Roboto";
+  --font-family-2: "Jost";
+  --font-family-width: 400;
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  height: 100%;
+}
+ol,
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+body {
+  font-family: var(--font-family);
+  font-weight: var(--font-family-width);
+  line-height: 1.56;
+  background-color: #fff;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.container {
+  width: 100%;
+  max-width: 1320px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}

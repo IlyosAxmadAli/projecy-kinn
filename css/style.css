@@ -89,6 +89,7 @@
   background-color: #ffffef;
   width: 100%;
   margin-bottom: 110px;
+  padding: 10px 0;
 }
 .hero-container {
   background: url("../images/Rectangle.jpg") no-repeat;
@@ -143,7 +144,6 @@
 
 /* features */
 .features {
-  background-color: #ffffef;
 }
 .features__information {
   width: 1194px;
@@ -181,6 +181,8 @@
 
 .boards {
   background-color: #ffffef;
+  padding: 30px 0;
+  margin-bottom: 80px;
 }
 .boards__list-boards {
 }
@@ -198,8 +200,7 @@
   align-items: center;
   justify-content: center;
   gap: 32px;
-  padding: 80px 32px;
-  margin-bottom: 23px;
+  padding: 80px 32px 0;
 }
 .pictures__img {
   display: flex;
@@ -234,6 +235,7 @@
   background: url("../images/Rectangle.png") no-repeat;
   background-position: center;
   height: 700px;
+  padding: 30px 0;
 }
 .dishes__info {
   width: 1093px;
@@ -310,6 +312,7 @@
 .forma {
   background-color: #ffffef;
   margin-bottom: 24px;
+  padding: 30px 0;
 }
 .form {
   display: flex;
@@ -339,6 +342,7 @@
 .form-input {
   outline: none;
   border: none;
+  background: transparent;
   width: 340px;
   border-bottom: 1px solid #56593d;
 }
@@ -378,17 +382,14 @@
 }
 
 .foter {
-  background-color: #ffffef;
 }
 .footer-sitenav {
-  width: 1360px;
   background-color: #717353;
+  width: 1360px;
   margin: auto;
   display: flex;
   justify-content: space-between;
   padding: 62px 32px 97px;
-}
-.footer-sitenav__contact {
 }
 .contact-title {
   font-family: var(--font-family);
